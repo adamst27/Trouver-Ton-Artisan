@@ -3,7 +3,6 @@ import { commentTrouverSecondCol, commentTrouverFirstCol } from "../constants";
 import { useEffect, useState } from "react";
 import Card from "./Card";
 import { Link } from "react-router-dom";
-
 const Home = () => {
   const [data, setData] = useState([]);
   const [artisanMois, setArtisanMois] = useState([]);
@@ -108,7 +107,7 @@ const Home = () => {
               <img
                 decoding="async"
                 className="hidden"
-                src="./src/assets/comment.jpeg"
+                src="/comment.jpeg"
                 alt="étapes-illustration"
               />
             </div>

@@ -19,7 +19,7 @@ const NavbarComponent = () => {
     <Navbar bg="light" expand="lg" collapseOnSelect>
       <Container fluid>
         <Navbar.Brand as={Link} to="/">
-          <img src="/public/logo.png" alt="logo" width={"100px"} />
+          <img src="/logo.png" alt="logo" width={"100px"} />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
