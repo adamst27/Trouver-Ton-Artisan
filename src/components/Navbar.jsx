@@ -40,16 +40,13 @@ const NavbarComponent = () => {
           <Form inline className="d-flex">
             <FormControl
               type="search"
-              placeholder="Rechercher les noms, spécialités ou villes ..."
+              placeholder="noms/spécialités/villes ..."
               className="me-2"
               aria-label="Search"
+              onChange={handleChange}
             />
             <Button variant="outline-success">
-              <Nav.Link
-                as={Link}
-                to={`/nos-artisans?search=${searchQuery}`}
-                onChange={handleChange}
-              >
+              <Nav.Link as={Link} to={`/nos-artisans?search=${searchQuery}`}>
                 Rechercher
               </Nav.Link>
             </Button>
